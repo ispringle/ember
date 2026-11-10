@@ -4,6 +4,6 @@ packages:
   - e2e
   - perf
 
-onlyBuiltDependencies:
-  - esbuild
-  - workerd
+allowBuilds:
+  esbuild: true
+  workerd: true
